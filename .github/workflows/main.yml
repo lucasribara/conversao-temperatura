@@ -28,5 +28,9 @@ jobs:
           cd src;
           npm install -g mocha;
           npm install
+          
+      
+      - name: Execute test
+        run: mocha src/test
       
   
