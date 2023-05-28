@@ -22,5 +22,11 @@ jobs:
         uses: actions/setup-node@v2.5.2
         with:
           node-version: 16.13.2
+          
+      - name: Install Mocha for testing
+        run: |
+          cd src;
+          nmp install -g mocha;
+          nmp install
       
   
