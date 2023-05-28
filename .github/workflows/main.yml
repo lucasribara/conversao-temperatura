@@ -26,7 +26,7 @@ jobs:
       - name: Install Mocha for testing
         run: |
           cd src;
-          nmp install -g mocha;
-          nmp install
+          npm install -g mocha;
+          npm install
       
   
