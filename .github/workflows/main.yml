@@ -50,7 +50,7 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            lucasribara/aula-conversao-temperatura:v1
+            lucasribara/aula-conversao-temperatura:${{github.run_number}}
             lucasribara/aula-conversao-temperatura:latest
       
   
